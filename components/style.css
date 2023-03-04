@@ -1,0 +1,66 @@
+
+.SamusaSelector{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+
+.count{
+    gap: 5px;
+    font-size: 1.3em;
+}
+  
+.pageTitle{
+    font-size: 3.2em;
+    margin: 15px;
+}
+  
+
+.image{
+    height: 200px;
+    width: 300px;
+}
+
+.image:hover{
+   cursor: pointer;
+   transform: scale(1.1);
+}
+
+.image:active{
+    transform: scale(0.95);
+}
+
+.container{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.upgrade{
+    border: 1px solid rgba(153, 153, 153, 0.497);
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    margin-right: 25px;
+    width: 200px;
+    line-height: 0.5;
+}
+
+
+.imcreaseNumber{
+    background-color: black;
+    color: white;
+    height: 30px;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
